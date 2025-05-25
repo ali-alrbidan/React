@@ -7,7 +7,7 @@ import PublicPage from "./rootPages/PublicPage";
 
 export default function MainApp() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  setIsAuthenticated(false);
+  
   return (
     <Router>
       <Routes>
